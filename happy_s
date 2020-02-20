@@ -1,4 +1,4 @@
-@media screen and (min-width:700px) {
+@media screen and (min-width:300px) {
     /*ウィンドウ幅が767px以上の場合に適用*/
 
 
@@ -177,7 +177,7 @@
     /* line 145, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
     .bun_R {
         float: left;
-        width: 500px;
+        width: 600px;
         margin-left: 110px;
         margin-top: 30px;
     }
@@ -191,8 +191,6 @@
     /* line 159, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
     .bun_L {
         float: left;
-         width: 500px;
-         margin-left: 110px;
     }
 
     /* line 164, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
