@@ -28,18 +28,32 @@ html {
 
 /* line 26, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
 #main {
-    background-image: url(images/hero.jpg);
+   
     background-size: cover;
     height: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+   
     height: 100vh;
-    position: relative;
+   
+    
+    
+}
+
+.bg-slider {
+  width: 100vw;
+  height: 100vh;
+  background-position:center center;
+  background-size: cover;
+  display: flex;
+
+  justify-content: flex-end;
+    z-index: 0;
+ 
 }
 
 /* line 40, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
 .container_main {
-    min-width: 1000px;
+   
     position: absolute;
     top: 0;
     right: 0;
@@ -48,7 +62,19 @@ html {
     margin: auto;
     width: 80%;
     height: 25.2rem;
+        min-width: 600px;
+    min-width: 600px;
+  
+  
 }
+
+.hero_main{
+   position: relative;
+    height: cover;
+    width: auto;
+   
+}
+
 
 /* line 52, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
 h2 {
@@ -68,6 +94,7 @@ h1 {
     margin-top: 40px;
 }
 
+
 /* line 71, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
 #main img {
     width: 1110px;
@@ -79,6 +106,7 @@ h1 {
 .logo_img {
     text-align: center;
 }
+
 
 /* line 85, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
 nav {
@@ -100,6 +128,7 @@ nav li {
     
 }
 
+
 /* line 102, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
 nav a {
     display: block;
@@ -114,6 +143,8 @@ li:hover {
      transition: color .1s
     
 }
+
+
 
 /* line 114, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
 .intro_img img {
@@ -202,6 +233,7 @@ li:hover {
 .botton2:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
 }
+
 
 /* line 202, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
 .right_botton {
@@ -366,6 +398,7 @@ li:hover {
 }
     
 
+
 #swift_c .botton_c{background-color: #FB5B10;}
            
    #go_c .botton_c{
@@ -387,3 +420,4 @@ li:hover {
     z-index: 3;
     
 }
+
