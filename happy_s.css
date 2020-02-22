@@ -300,11 +300,11 @@
 
     .container_courses {
 
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
         display: flex;
-
+font-size: 8px;
         display: -webkit-box;
         display: -moz-box;
         display: -ms-flexbox;
@@ -330,15 +330,17 @@
     .course_c {
 
 
-        height: 420px;
+        height: 220px;
+        
         background-color: #fff;
-        padding: 8px;
+        padding: 1px;
         text-align: center;
         margin: 20px 10px;
         flex-shrink: 0;
-        flex-basis: 285px;
+        flex-basis: 140px;
         border-radius: 12px;
         z-index: 3;
+        
     }
 
 
@@ -349,49 +351,48 @@
     }
 
     .icon_c_1 {
-        height: 270px;
+        height: 120px;
     }
 
     .icon_c_2 {
-        height: 270px;
+        height: 120px;
     }
 
     .icon_c_1 img {
-        width: 130px;
-        padding-top: 30px;
+        width: 50px;
+        padding-top: 35px;
 
     }
 
     .icon_c_2 img {
-        width: 130px;
-        padding-top: 60px;
+        width: 50px;
+        padding-top: 40px;
     }
 
     .course_c p {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
         font-family: 'ヒラギノ角ゴ Pro W3';
     }
 
     .botton_c {
         text-align: center;
-        width: 150px;
+        width: 90px;
 
 
         background-color: #3D5CDB;
         color: #fff;
-        padding: 13px 33px;
-        border-radius: 12px;
+        padding: 10px 4px;
+        border-radius: 16px;
         margin: 0 auto;
-        margin-top: 25px;
+        margin-top: 0;
         transition: background-color 0.5s;
         font-family: 'ヒラギノ角ゴ Pro W6';
+        font-size: 7px;
     }
 
 
     #html_c .botton_c {
         background-color: #F04F03;
-
-
     }
 
     #css_c .botton_c {
