@@ -60,7 +60,11 @@
       .logo_img {
         text-align: center;
         margin:  0 auto;
+          
+          
     }
+    
+   
 
     /* line 40, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
     .container_main {
@@ -110,7 +114,7 @@
 
     /* line 71, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
     #main img {
-        width: 250px;
+        width: 290px;
         background-position: center center;
         background-repeat: no-repeat;
     }
@@ -141,7 +145,7 @@
     }
 
     /* line 120, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
-    .right-box {}
+
 
     /* line 127, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
     .content1 {
@@ -504,6 +508,8 @@ font-size: 8px;
     }
 }
 
-
+ .logo_img img{
+        width: 270px;
+    }
     
 }
