@@ -1,0 +1,40 @@
+body{
+
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img{
+    height: 200px;
+}
+
+.image {
+  width: 250px;
+  height: 166px;
+  border: solid 2px #F1E6DE;
+  overflow: hidden;
+    
+
+  
+  }
+img{
+    width: 100%;
+    transition: 0.8s;
+       transform: rotate(15deg) scale(1.4);
+    transition: 0.5s;
+  }
+
+img:hover{
+   
+ transform: rotate(0) scale(1);
+    
+   -moz-transition-duration:1s;
+-webkit-transition-duration:1s;
+-o-transition-duration:1s;
+-ms-transition-duration:1s;
+    }
