@@ -50,9 +50,9 @@
         height: 100vh;
         background-position: center center;
         background-size: cover;
-        display: flex;
+     
 
-        justify-content: flex-end;
+     
         z-index: 0;
 
     }
