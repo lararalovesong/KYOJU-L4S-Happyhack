@@ -169,7 +169,7 @@
 
     /* line 136, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
     .left-box {
-        width: 1316px;
+        width: 1416px;
         margin: 0 auto;
         overflow: hidden;
     }
@@ -191,8 +191,10 @@
     /* line 159, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
     .bun_L {
         float: left;
-         width: 500px;
-         margin-left: 110px;
+         width: 600px;
+         margin-left: 80px;
+        margin-right: 50px;
+        
     }
 
     /* line 164, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */

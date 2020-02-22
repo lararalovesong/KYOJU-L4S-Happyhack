@@ -2,15 +2,16 @@ body{
 
 }
 
-.container {
+.img_wrap{
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.image img{
+.img_wrap img{
     height: 200px;
+     filter: blur(5px);
 }
 
 .image {
@@ -25,13 +26,13 @@ body{
 img{
     width: 100%;
     transition: 0.8s;
-       transform: rotate(15deg) scale(1.4);
+      
     transition: 0.5s;
   }
 
 img:hover{
-   
- transform: rotate(0) scale(1);
+    filter: blur(0px);
+
     
    -moz-transition-duration:1s;
 -webkit-transition-duration:1s;
