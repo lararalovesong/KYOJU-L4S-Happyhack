@@ -1,13 +1,13 @@
-$(function(){
-　$(window).scroll(function (){
-    $('.effect-fade').each(function(){
-        var elemPos = $(this).offset().top;
-        var scroll = $(window).scrollTop();
-        var windowHeight = $(window).height();
-        if (scroll > elemPos - windowHeight+200){
-            $(this).addClass('effect-scroll');
-        }
-    });
-　});
-});
 
+jQuery(function(){
+    jQuery(window).scroll(function (){
+        jQuery('.effect-fade').each(function(){
+            var elemPos = jQuery(this).offset().top;
+            var scroll = jQuery(window).scrollTop();
+            var windowHeight = jQuery(window).height();
+            if (scroll > elemPos - windowHeight + 200){
+                jQuery(this).addClass('effect-scroll');
+            }
+        });
+    });
+  });
