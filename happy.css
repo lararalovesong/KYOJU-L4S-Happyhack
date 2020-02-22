@@ -49,8 +49,7 @@
         height: 100vh;
         background-position: center center;
         background-size: cover;
-        display: flex;
-
+       
         z-index: 0;
         -webkit-animation : anim 0.3s linear 0s 1 normal;
 
