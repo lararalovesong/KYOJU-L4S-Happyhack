@@ -285,6 +285,7 @@
 
     }
 
+  
     #Courses {
         background-color: #BAD5F5;
         height: 100%;
@@ -447,4 +448,17 @@
         margin-bottom: 20px;
         color: #3D5CDB;
     }
+    
+     
+}
+
+ .effect-fade {
+　opacity : 0;
+    transform : translate(0, 70px);
+    transition:all 1.9s;
+}
+
+.effect-fade.effect-scroll {
+　opacity : 1;
+　transform : translate(0, 0);
 }
