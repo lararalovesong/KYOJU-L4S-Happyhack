@@ -52,7 +52,7 @@
             </div>
         </div>
     </section>
-
+<div class="fuwat">
 
     <section id="Introduction">
         <h2>Introduction</h2>
@@ -97,8 +97,8 @@
             </div>
         </div>
     </section>
-
-
+</div>
+<div class="fuwat">
         <section id="Courses">
 
             <canvas class="background"></canvas>
@@ -152,7 +152,8 @@
             </div>
                 </div>
         </section>
-
+    </div>
+    <div class="fuwat">
     <section id="Images">
         <h2>Images</h2>
         <div class="slider">
@@ -166,6 +167,8 @@
             </div>
         </div>
     </section>
+      </div>
+      <div class="fuwat">
     <section id="Access">
           <div class="effect-fade">
         <h2>Access</h2>
@@ -175,37 +178,48 @@
         </div>
         
         
-        
+       
     </section>
-    
-    <section>
-  <div class="text">
-  <h1>フェードイン</h1>
-  <p>スクロールすると要素が<br>フェードインします。</p>
-    </div>
-</section>
-<div class="effect-fade"><img src="https://source.unsplash.com/400x300/?food" alt=""></div>
-<div class="effect-fade"><img src="https://source.unsplash.com/400x300/?nature" alt=""></div>
-<div class="effect-fade"><img src="https://source.unsplash.com/400x300/?objects" alt=""></div>
+     </div>
+   
+  
+  
     
     <footer>
 
         <p><small>&copy; 2019 Happy Hack inc.</small></p>
     </footer>
+        
+    
+   <script type="text/javascript">
+$(document).ready(function(){
+  $('.fuwat').css('visibility','hidden');
+  $(window).scroll(function(){
+   var windowHeight = $(window).height(),
+       topWindow = $(window).scrollTop();
+   $('.fuwat').each(function(){
+    var objectPosition = $(this).offset().top;
+    if(topWindow > objectPosition - windowHeight + 200){
+     $(this).addClass("fuwatAnime");
+    }
+   });
+  });
+});
+</script>　
 
-   
+
  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="jq_master/jquery.bgswitcher.js"></script>
     <script>
-        jQuery(function($) {
+        $(function($) {
             $('.bg-slider').bgSwitcher({
                 images: ['images/hero.jpg', 'images/background2.jpg', 'images/background3.jpg'],
                 interval: 5000,
                 loop: true,
                 shuffle: true,
                 effect: "fade", // fade,blind,clip,slide,drop,hide
-                duration: 3000,
+                duration: 2000,
                 easing: "swing" // linear,swing
             });
         });
@@ -233,7 +247,6 @@
 
     </script>
 
-    <script src="app.js"></script>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

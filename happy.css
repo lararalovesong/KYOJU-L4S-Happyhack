@@ -173,7 +173,7 @@
         margin: 0 auto;
         overflow: hidden;
         padding-bottom: 20px;
-        
+
     }
 
     /* line 145, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
@@ -188,18 +188,18 @@
     .text {
         margin: 0 auto;
         color: #333333;
-        
+
     }
 
     /* line 159, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
     .bun_L {
         float: left;
-         width: 600px;
-         margin-left: 80px;
+        width: 600px;
+        margin-left: 80px;
         margin-right: 50px;
         margin-top: -20px;
-        
-        
+
+
     }
 
     /* line 164, /Users/laralachan/Desktop/L4S-KYOJU-HAPPYHACK/happy.scss */
@@ -290,7 +290,7 @@
 
     }
 
-  
+
     #Courses {
         background-color: #BAD5F5;
         height: 100%;
@@ -453,17 +453,48 @@
         margin-bottom: 20px;
         color: #3D5CDB;
     }
-    
-     
+
+    .fuwatAnime {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
 }
 
- .effect-fade {
-　opacity : 0;
-    transform : translate(0, 70px);
-    transition:all 1.9s;
+@-webkit-keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
 }
 
-.effect-fade .effect-scroll {
-　opacity : 1;
-　transform : translate(0, 0);
+@keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
 }
+
+}
+
+
